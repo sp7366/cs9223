@@ -1,11 +1,9 @@
 from cryptography import x509
+from cryptography.exceptions import InvalidSignature
 from cryptography.hazmat.backends import default_backend
-from cryptography.hazmat.primitives import serialization
-
-from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.hazmat.primitives.serialization import load_pem_public_key
-from cryptography.exceptions import InvalidSignature
 
 
 # extracts and returns public key from a given cert (in pem format)
@@ -54,7 +52,7 @@ def verify_artifact_signature(signature, public_key, artifact_filename):
             data,
             ec.ECDSA(hashes.SHA256())
         )
-    except InvalidSignature as e:
+    except InvalidSignature:
         print("Signature is invalid")
     except Exception as e:
         print("Exception in verifying artifact signature:", e)

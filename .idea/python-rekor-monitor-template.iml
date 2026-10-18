@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/.venv" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib/python3.14/site-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib/python3.14/site-packages/bleach/_vendor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib/python3.14/site-packages/docutils/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib/python3.14/site-packages/fissix/tests/data/fixers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib/python3.14/site-packages/future/backports" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib/python3.14/site-packages/future/moves" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib/python3.14/site-packages/jsonschema/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib/python3.14/site-packages/pip/_internal/metadata" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib64/python3.14/site-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib64/python3.14/site-packages/future/backports" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.venv/lib64/python3.14/site-packages/past" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="WSL (Ubuntu): (/home/srp/.virtualenvs/python-rekor-monitor-template/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

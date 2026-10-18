@@ -1,0 +1,32 @@
+[project]
+name = "python-rekor-monitor"
+version = "0.1.0"
+description = "Rekor transparency log verifier and supply chain security tool"
+authors = [
+    {name = "SRP", email = "srp7366@nyu.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.0.0",
+    "cryptography>=50.0.2",
+    "jsonschema (>=4.26.0,<5.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = [
+    "ruff (>=0.17.1,<0.18.0)",
+    "mypy (>=2.4.0,<3.0.0)",
+    "bandit (>=1.9.4,<2.0.0)",
+    "pytest (>=9.1.1,<10.0.0)",
+    "pytest-cov (>=7.1.0,<8.0.0)"
+]
+
+[tool.ruff.lint]
+ignore = ["BLE001"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
